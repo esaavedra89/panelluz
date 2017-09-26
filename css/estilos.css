@@ -1,0 +1,19 @@
+.desplegable{
+    background-color: #212529;
+}
+
+.desplegable > a{
+    color: #fff;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.desplegable > a:hover{
+    color:#00bcdf;
+    text-decoration:none;
+    background-color: #212529
+
+}
