@@ -46,3 +46,6 @@ header{background-color: #f8f9fa;}
         display: none;
     }
 }
+.carousel-item > .carousel-caption > h3{
+    color: #fff;
+}
