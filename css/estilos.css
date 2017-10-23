@@ -40,9 +40,37 @@ ul.social-buttons > li{
 }
 
 header{background-color: #f8f9fa;}
-
+/*Por debajo de 768px de ancho, se aplicaran estos cambios*/
 @media only screen and (max-width: 768px) {
     .section-widget {
+        display: none;
+    }
+
+    .carousel{
+        display: none;
+    }
+    /*social button lateral*/
+    .social-buttons-lateral{
+        display: none;
+    }
+    /*social buttons del pie*/
+    #social-buttons-footer{
+        display: block;
+    }
+    #nosotros{
+        margin-top: 25px;
+    }
+    .copyright{
+        display: block;
+        text-align: left;
+        margin-top: 10px;
+
+    }
+
+}
+/*por encima de 769px se aplicaran estos cambios*/
+@media screen and (min-width: 769px) {
+    #social-buttons-footer{
         display: none;
     }
 }
@@ -50,3 +78,32 @@ header{background-color: #f8f9fa;}
     color: #fff;
 }
 
+#aliados{
+    background-color: white !important;
+}
+#contacto{
+    background-color: #f8f9fa!important;
+}
+
+footer > .container > #social-buttons-footer > .social-buttons > ul > li > a{
+    font-size: 20px;
+    margin: 10px;
+}
+.footer-panelluz{
+    text-align: left;
+    font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+
+
+}
+.footer-panelluz > span{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    color: #fff;
+    display: block;
+    text-transform: none;
+
+}
+.footer-panelluz > span > a{
+    text-decoration: none;
+    color: #fff;
+}
