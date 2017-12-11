@@ -30,8 +30,6 @@ location.href="../inc/login.php";
 <br>
 <br>
 <br>
-<h1 class="text-center"><span class="icon-android" style="color: #0b2e13">Inventario</h1>
-<h1 class="text-center"><span class="icon-android">Inventario</h1>
-<h1 class="text-center"><span class="icon-android">Inventario</h1>
+
 <h1 class="text-center"><span class="icon-android">Inventario</h1>
 <div ng-include=" '../plantillas/menu.php' "></div>

@@ -11,10 +11,7 @@ location.href="../inc/login.php";
 }
 
 ?>
-<br>
-<br>
-<br>
-<br>
+
 <br>
 <br>
 <br>
