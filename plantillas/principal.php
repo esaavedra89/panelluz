@@ -14,11 +14,7 @@ if (isset($_SESSION['k_username'])){
     <div class="row">
         <div class="col-lg-12">
             <h1 class="text-center principal-titulo">Principal</h1>
-        </div>
-        <div class="col-lg-4">
-            <div>
-                <a class="nav-link js-scroll-trigger" ui-sref="inventario">Inventario</a>
-            </div>
+            <img src="../img/carousel/1.jpg" width="100%">
         </div>
         <div class="col-lg-4"></div>
         <div class="col-lg-4"></div>
