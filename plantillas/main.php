@@ -11,9 +11,8 @@ location.href="../inc/login.php";
 </script>';
 }
 
+require("../inc/conexion.php");
 ?>
-
-
 <!DOCTYPE html>
 <html lang="en" data-ng-app="panelluz">
 <head>
@@ -33,7 +32,6 @@ location.href="../inc/login.php";
     <script src="../js/jquery-3.2.1.min.js"></script>
     <script src="../js/angular.min.js"></script>
     <script src="//unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
-
 </head>
 <body id="top">
 <div class="container-fluid">
@@ -43,7 +41,6 @@ location.href="../inc/login.php";
         <div ui-view></div>
     </div>
 </div>
-
 <!--------------------------------------------------------------------->
 <!--->
 <!--->

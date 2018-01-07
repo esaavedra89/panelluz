@@ -39,4 +39,5 @@ jQuery(document).on('submit','#formulario',function(event){
         .always(function(){
             console.log("complete");
         })
-})
+});
+

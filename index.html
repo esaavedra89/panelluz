@@ -113,22 +113,65 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
-      <section class="bg-light" >
-        <div class="container">
-          <div class="col-xs-12 section-widget">
-            <h4 class="text-center">Lo más reciente en Instagram</h4>
-            <hr class="star-light">
-            <div class="widget-instagram">
-              <!-- LightWidget WIDGET -->
-              <script src="//lightwidget.com/widgets/lightwidget.js"></script>
-              <iframe src="//lightwidget.com/widgets/871c221ff14558249e9faa47c4984e5c.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
 
-            </div>
-          </div>
-        </div>
-      </section>
     </header>
 
+    <!-- Lista de clientes -->
+    <!--Al cambiar el id=contact a "contacto" perdio los estilos CSS aplicados a este id, si quieres revertir el cambio cambia el ID a "contact"-->
+    <section id="ListaClientes">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Lista de Clientes</h2>
+            <hr class="star-primary">
+            <h3 class="section-subheading text-muted">Perteneciendo a nuestra lista de clientes, recibiras las
+              ofertas de los productos que tenemos para ti.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <form id="clientesForm" name="sentMessage" novalidate>
+              <div class="row">
+                <!--<div class="col-md-12">-->
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input class="form-control" id="name1" type="text" placeholder="Tu nombre completo *" required data-validation-required-message="Por favor ingresa tu nombre.">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input class="form-control" id="email1" type="email" placeholder="Tu email *" required data-validation-required-message="Por favor ingrese su correo electronico">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <div id="success1"></div>
+                  <button id="sendMessageButton1" class="btn btn-xl" type="submit">Enviar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--     Instagram-->
+
+    <section class="bg-light" >
+      <div class="container">
+        <div class="col-xs-12 section-widget">
+          <h4 class="text-center">Lo más reciente en Instagram</h4>
+          <hr class="star-light">
+          <div class="widget-instagram">
+            <!-- LightWidget WIDGET -->
+            <script src="//lightwidget.com/widgets/lightwidget.js"></script>
+            <iframe src="//lightwidget.com/widgets/871c221ff14558249e9faa47c4984e5c.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- About Section -->
     <section class="success " id="nosotros">
@@ -534,6 +577,7 @@
     <!-- Contact form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
+    <script src="js/lista_clientes.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
